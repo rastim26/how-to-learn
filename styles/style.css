@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #000;
 }
 
 .header {
@@ -21,12 +22,13 @@
   padding-left: 64px;
 }
 
-.header__logo {
+.logo {
   width: 228px;
   height: 32px;
 }
 
-.header__logo_place_header {
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   z-index: 2;
@@ -53,6 +55,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -75,14 +78,16 @@
 
 .description {
   padding: 100px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  min-height: 250px; /* В задании есть, но зачем он нужен? */
-  margin: 0 auto;
+  min-height: 300px; /* В задании есть, но зачем он нужен? */
+  margin: 0;
 }
 
 .two-columns__brief {
@@ -238,4 +243,65 @@
   right: -210px;
   width: 877px;
   height: 877px;
+}
+
+.footer {
+  padding: 60px 0 40px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.footer__columns {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
 }
