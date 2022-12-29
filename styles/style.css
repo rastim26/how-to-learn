@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 64px;
 }
 
 .logo {
@@ -31,6 +30,7 @@
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
+  left: 64px;
   z-index: 2;
 }
 
@@ -39,12 +39,14 @@
   font-weight: 600;
   line-height: 96px;
   width: 730px;
+  margin: 0 0 0 64px;
   z-index: 2;
 }
 
 .header__subtitle {
   position: absolute;
   bottom: 30px;
+  left: 64px;
   z-index: 2;
   width: 388px;
   margin: 0;
@@ -86,7 +88,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  min-height: 300px; /* В задании есть, но зачем он нужен? */
+  min-height: 300px;
   margin: 0;
 }
 
@@ -185,7 +187,7 @@
 }
 
 .feynman__subtitle {
-  margin-top: 70px;
+  margin: 70px 0 0;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
