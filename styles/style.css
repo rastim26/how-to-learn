@@ -80,7 +80,7 @@
 }
 
 .description {
-  padding: 100px 0;
+  padding: 100px 0 0;
   display: flex;
   justify-content: center;
 }
@@ -245,6 +245,7 @@
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   position: absolute;
   top: 0;
   right: -210px;
