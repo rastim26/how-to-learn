@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .logo {
@@ -77,6 +78,19 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .description {
