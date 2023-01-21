@@ -100,10 +100,11 @@
 }
 
 .two-columns {
-  margin: 160px 0 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   width: 80%;
+  min-height: 200px;
   min-height: 200px;
 }
 
@@ -195,6 +196,8 @@
   margin-bottom: -50px;
   position: relative;
   z-index: 1;
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: center;
   column-gap: 20px;
@@ -206,6 +209,7 @@
 }
 
 .oakley {
+  padding-top: 160px;
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
