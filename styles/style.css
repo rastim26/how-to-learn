@@ -136,6 +136,73 @@
   font-weight: 600;
 }
 
+.techniques {
+  margin: 0;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  width: 80%;
+  max-width: 920px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  text-align: center;
+}
+
+.cards__item {
+  margin-top: 60px;
+  width: 240px;
+}
+
+.cards__image {
+  margin: 0 40px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 43px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  margin: 16px 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__iframes {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
 .digits {
   padding: 100px 0;
 }
