@@ -61,6 +61,14 @@
   color: #2f80ed;
 }
 
+.link {
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -349,6 +357,7 @@
 
 .khan__book-container {
   display: flex;
+  align-items: start;
 }
 
 .khan__book-pic {
