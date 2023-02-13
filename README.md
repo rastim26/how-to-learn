@@ -1,4 +1,4 @@
-# Научиться учиться(https://rastim26.github.io/how-to-learn/)
+# [Научиться учиться](https://rastim26.github.io/how-to-learn/)
 
 ## О сайте:
 
