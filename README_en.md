@@ -1,4 +1,4 @@
-# How to learn
+# Project [How to learn](https://rastim26.github.io/how-to-learn/)
 
 ## About the website:
 
